@@ -130,6 +130,7 @@ loan-prediction-analysis/
 │
 ├── src/
 │   ├── data_preprocessing.py
+│   ├── data_visualization.py
 │   ├── exploratory_data_analysis.py
 │   ├── model_training.py
 │   ├── hyperparameter_tuning.py
