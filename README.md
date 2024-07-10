@@ -68,11 +68,12 @@ The best parameters were identified and used to retrain the models for optimal p
 
 The models were evaluated using the following metrics:
 
-Accuracy: Measures the proportion of correctly predicted instances out of the total instances.
-Precision: Measures the proportion of true positive predictions out of the total predicted positives.
-Recall: Measures the proportion of true positive predictions out of the total actual positives.
-F1 Score: Harmonic mean of precision and recall, providing a balance between the two metrics.
-ROC AUC: Measures the ability of the model to distinguish between classes, with a higher value indicating better performance.
+- Accuracy: Measures the proportion of correctly predicted instances out of the total instances.
+- Precision: Measures the proportion of true positive predictions out of the total predicted positives.
+- Recall: Measures the proportion of true positive predictions out of the total actual positives.
+- F1 Score: Harmonic mean of precision and recall, providing a balance between the two metrics.
+- ROC AUC: Measures the ability of the model to distinguish between classes, with a higher value indicating better performance.
+
 Confusion matrices and ROC curves were plotted for the models with the best parameters to visually represent the performance.
 
 
