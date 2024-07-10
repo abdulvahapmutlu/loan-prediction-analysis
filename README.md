@@ -115,29 +115,3 @@ Feel free to explore and modify the code as needed. Contributions are welcome!
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-### Repository Structure
-
-```
-loan-prediction-analysis/
-│
-├── data/
-│   └── loan_train.csv
-│
-├── notebooks/
-│   └── loan_prediction_analysis.ipynb
-│
-├── src/
-│   ├── data_preprocessing.py
-│   ├── data_visualization.py
-│   ├── exploratory_data_analysis.py
-│   ├── model_training.py
-│   ├── hyperparameter_tuning.py
-│   └── evaluation.py
-│
-├── requirements.txt
-├── LICENSE
-└── README.md
-```
-
