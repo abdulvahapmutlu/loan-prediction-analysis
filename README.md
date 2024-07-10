@@ -1,6 +1,7 @@
 # Loan Prediction Analysis
 This repository contains a comprehensive analysis and machine learning modeling for predicting loan approval status using various classification algorithms. The project involves data preprocessing, exploratory data analysis, model training, hyperparameter tuning, and evaluation of multiple machine learning models.
 
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -11,10 +12,12 @@ This repository contains a comprehensive analysis and machine learning modeling 
 6. [Evaluation](#evaluation)
 7. [Conclusion](#conclusion)
 
+
 ## Introduction
 
 The goal of this project is to build predictive models that can determine whether a loan will be approved or not based on historical data. The dataset used for this analysis is `loan_train.csv`.
 The dataset is taken from https://www.kaggle.com/datasets/vikasukani/loan-eligible-dataset
+
 
 ## Data Preprocessing
 
@@ -24,6 +27,7 @@ The dataset is taken from https://www.kaggle.com/datasets/vikasukani/loan-eligib
 4. **One-Hot Encoding**: The `Property_Area` column was one-hot encoded.
 5. **Resampling**: The SMOTE technique was used to address class imbalance in the target variable.
 
+
 ## Exploratory Data Analysis
 
 - Distribution plots for `Loan_Status`, `Gender`, and `Education`.
@@ -32,6 +36,7 @@ The dataset is taken from https://www.kaggle.com/datasets/vikasukani/loan-eligib
 - Pairplot for visualizing relationships between `ApplicantIncome`, `CoapplicantIncome`, `LoanAmount`, `Loan_Amount_Term`, and `Credit_History`.
 - Correlation heatmap.
 - Interactive scatter plot using Plotly for `ApplicantIncome` vs `LoanAmount` colored by `Loan_Status`.
+
 
 ## Model Training
 
@@ -43,6 +48,7 @@ Various machine learning models were trained:
 - Support Vector Machine (SVM)
 - K-Nearest Neighbors (KNN)
 - Naive Bayes
+
 
 ## Hyperparameter Tuning
 
@@ -57,20 +63,23 @@ Hyperparameter tuning was performed using GridSearchCV for the following models:
 
 The best parameters were identified and used to retrain the models for optimal performance.
 
+
 ## Evaluation
 
 The models were evaluated using the following metrics:
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- ROC AUC
 
-Confusion matrices and ROC curves were plotted for the models with the best parameters.
+Accuracy: Measures the proportion of correctly predicted instances out of the total instances.
+Precision: Measures the proportion of true positive predictions out of the total predicted positives.
+Recall: Measures the proportion of true positive predictions out of the total actual positives.
+F1 Score: Harmonic mean of precision and recall, providing a balance between the two metrics.
+ROC AUC: Measures the ability of the model to distinguish between classes, with a higher value indicating better performance.
+Confusion matrices and ROC curves were plotted for the models with the best parameters to visually represent the performance.
+
 
 ## Conclusion
 
 This project demonstrates the end-to-end process of building a machine learning model, from data preprocessing to model evaluation. The Random Forest and Gradient Boosting classifiers showed promising results with high accuracy and AUC scores. Best classifier for this project is the Random Forest.
+
 
 ## Usage
 
